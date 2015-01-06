@@ -1,0 +1,219 @@
+en:
+  forem:
+    general:
+      deleted: [삭제됨]
+      forum: 포럼
+      topics: 토픽
+      topic: 토픽
+      posts: 글
+      posts_count:
+        zero: 글 없음
+        one: 한 개의 글
+        other: "%{count}개의 글"
+      flagged_for_spam: 당신의 계정이 스팸으로 표시되었습니다.
+      cannot_create_topic: 지금은 새로운 토픽을 만들 수 없습니다.
+      cannot_create_post: 지금은 새로운 글을 만들 수 없습니다.
+
+    access_denied: "권한이 없습니다."
+    admin:
+      area: 관리자 구역
+      back_to_admin: "관리자로 돌아가기"
+      back_to_forums: "포럼으로 돌아가기"
+      back_to_groups: "그룹으로 돌아가기"
+      welcome: "Forem의 관리자 구역에 오신것을 환영합니다."
+      forum:
+        moderator_groups: 중재자 그룹
+        index: 포럼 관리
+        new: 새 포럼 만들기
+        new_link: 새 포럼
+        deleted: 선택된 포럼이 삭제됬습니다.
+        created: 포럼이 생성되었습니다.
+        not_created: 이 포럼은 생성되지 못했습니다.
+        updated: 이 포럼은 업데이트 되었습니다.
+        not_updated: 이 포럼은 업데이트되지 못했습니다.
+      forums:
+        edit: 수정
+        delete: 삭제
+        category: 분류
+        delete_confirm: 이 포럼을 정말로 삭제할까요?
+        index:
+          last_post: 마지막 글
+          none: 없음
+          moderators: 중재자
+      group:
+        index: 그룹 관리
+        new: 새 그룹
+        created: 그룹이 성공적으로 생성되었습니다.
+        not_created: 그룹이 생성되지 못했습니다
+        deleted: 선택한 그룹이 삭제되었습니다.
+        members: "%{group}의 구성원"
+      groups:
+        show:
+          add_member: 추가
+          add_a_new_member: "새로운 구성원 추가"
+          current_members: "현재 구성원"
+          remove_member: "구성원 제거"
+          member_removed: "선택된 사용자는 그룹으로부터 제거되었습니다."
+          no_member_to_remove: "선택된 사용자는 이 그룹에 속해있지 않습니다."
+        edit: 수정
+        delete: 삭제
+        name: 이름
+      category:
+        index: 포럼 분류 관리
+        new: 새로운 포럼 분류 추가
+        edit: "%{title} 분류 수정"
+        new_link: 새로운 포럼 분류
+        deleted: 선택된 포럼 분류가 삭제되었습니다.
+        created: 포럼 분류가 생성되었습니다.
+        not_created: 포럼 분류가 생성되지 못했습니다.
+        updated: 포럼 분류가 업데이트되었습니다.
+        not_updated: 이 포럼 분류는 업데이트되지 못했습니다.
+      categories:
+        edit: 수정
+        delete: 삭제
+        category: 분류
+        delete_confirm: 정말로 이 포럼 카테고리를 삭제할까요?
+    common:
+      pages: 페이지
+    errors:
+      not_signed_in: 먼저 로그인해 주세요.
+      access_denied: 접근 불가.
+    forum:
+      header: "%{title} 보기"
+      forums: 포럼
+      new: 새로운 포럼 만들기
+      edit: "%{title} 포럼 수정"
+      topics_count:
+        zero: 0개의 토픽
+        one: 1개의 토픽
+        other: "%{count}개의 토픽"
+      posts_count:
+        zero: 0개의 글
+        one: 1개의 글
+        other: "%{count}개의 글"
+      moderator_tools: "중재 도구" #In Korean, Moderator and Admin have very similar mean.
+    forums:
+      index:
+        title: 포럼
+        forum: 포럼
+        views: 조회수 #Maybe it means "Count of visitor"
+        last_post: '마지막 글:'
+        none: 없음
+    topic:
+      headings:
+        topic: 토픽
+        latest: 최근
+        posts: 글
+        views: 조회수 #Maybe it means "Count of visitor"
+      moderation:
+        success: 선택된 토픽이 검토되었습니다. #I don't know this means. So I translated it to "check".
+        no_option_selected: 검토 옵션이 선택되지 않았습니다.
+      received_reply: A topic you have subscribed to has received a reply.
+      reply: Reply
+      quote: Quote
+      delete: Delete
+      created: This topic has been created.
+      new: Creating a new topic
+      edit: Editing topic
+      not_created: This topic could not be created.
+      deleted: Your topic has been deleted.
+      cannot_delete: You cannot delete a topic you do not own.
+      updated: This topic has been updated.
+      not_updated: This topic could not be updated.
+      subscribed: You have subscribed to this topic.
+      unsubscribed: You have unsubscribed from this topic.
+      none: There are no topics in this forum currently.
+      links:
+        new: New topic
+        back_to_topics: Back to topics
+        edit: Edit topic
+      not_found: The topic you are looking for could not be found.
+      hidden:
+        'true': This topic is now hidden.
+        'false': This topic is now visible.
+      locked:
+        'true': This topic is now locked.
+        'false': This topic is now unlocked.
+      pinned:
+        'true': This topic is now pinned.
+        'false': This topic is now unpinned.
+    topics:
+      show:
+        reply: Reply
+        delete: Delete
+        subscribe: Subscribe
+        unsubscribe: Unsubscribe
+        reply_to_topic: Reply to Topic
+        pending_review: This topic is currently pending review. Only the user who created it and moderators can view it.
+        hide:
+          'true': Show this topic
+          'false': Hide this topic
+        lock:
+          'true': Unlock this topic
+          'false': Lock this topic
+        pin:
+          'true': Unpin this topic
+          'false': Pin this topic
+    post:
+      buttons:
+        reply: Post Reply
+        edit: Edit
+      created: Your reply has been posted.
+      new: Post reply to
+      edit: Editing post
+      not_created: Your reply could not be posted.
+      not_created_topic_locked: You cannot reply to a locked topic.
+      edited: Your post has been edited.
+      not_edited: Your post could not be edited.
+      deleted: Your post has been deleted.
+      deleted_with_topic: Only post in topic deleted. Topic also deleted.
+      cannot_delete: You cannot delete a post you do not own.
+      in_reply_to: In reply to
+      cannot_quote_deleted_post: The post you tried to quote does not exist anymore.
+    posts:
+      moderation:
+        moderate: Moderate
+        approve: Approve
+        spam: Spam
+        success: The selected posts have been moderated.
+      post:
+        pending_review: This post is currently pending review. Only the user who posted it and moderators can view it.
+    moderation:
+      index:
+        title: "Moderation tools for %{forum}"
+  helpers:
+    submit:
+      forum:
+        create: Create Forum
+        update: Update Forum
+      topic:
+        create: Create Topic
+        update: Update Topic
+  simple_form:
+    labels:
+      category:
+        name: Name
+      forum:
+        title: Title
+        description: Description
+        category: Category
+        moderators: Moderators
+      topic:
+        subject: Subject
+        locked: Locked
+        pinned: Pinned
+        hidden: Hidden
+        posts:
+          text: Text
+      post:
+        text: Text
+      group:
+        name: Name
+
+  # General stuff
+  time_ago_in_words: "%{time} ago"
+  ago: " ago"
+  ago_by: " ago by"
+  by: by
+  started_by: "Started by "
+  are_you_sure: Are you sure?
