@@ -215,5 +215,5 @@ en:
   ago: " ago"
   ago_by: " ago by"
   by: by
-  started_by: "Started by "
-  are_you_sure: Are you sure?
+  started_by: "시작자: "
+  are_you_sure: 확실한가요?
